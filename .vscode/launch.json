@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ Main App (Launcher)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main_app.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "📷 Collect Training Data",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/collect_data.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "🤖 Train Model",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/train_model.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "🎤 Speech → Sign",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/speech_to_sign.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "🖐 Sign → Voice",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/sign_to_voice.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
