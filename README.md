@@ -1,4 +1,4 @@
-# 🤟 Sign Language Bridge
+# Sign Language Bridge
 
 A two-way communication system that bridges the gap between deaf and hearing people using computer vision and machine learning.
 
